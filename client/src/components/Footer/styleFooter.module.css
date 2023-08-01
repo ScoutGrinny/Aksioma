@@ -1,0 +1,48 @@
+
+.footer {
+    display: flex;
+    flex-direction: column;  
+  }
+
+  .containerFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: auto;
+    background: #000;
+    /* margin-bottom: -20px; */
+    height: 70px;
+    box-shadow: 0 0 250px 0 rgb(16,60,161); 
+    
+  }
+  .textLink{
+    text-decoration: none;
+    color: #fff;
+  }
+  .textLink:hover{
+    color: orange;
+  }
+  .data{
+    text-align: center;
+    font-size: 12px;
+  }
+
+.containerCont{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 200px;
+    
+}
+.conatainerCreator{
+
+    margin-right: 70px;
+}
+.containerMap{
+  display: flex;
+  min-width: 80vw;
+  min-height: 60vh; 
+  box-shadow: 0 0 250px 0 #1c2129ea;  
+  border-radius: 120px;
+}

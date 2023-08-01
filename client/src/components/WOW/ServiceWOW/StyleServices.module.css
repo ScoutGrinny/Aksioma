@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.containerItems{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(../img/bg_masthead.webp), url(../img/azeroth.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat, repeat-y;
+  background-blend-mode: screen;
+}
+.containerAccount{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  width: 1500px;
+}
+.mainItems{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    height: 1100px; 
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.boxAccount{
+    display: flex;
+    align-items: center;
+    width: 42rem;
+    height: 10rem;
+    margin: 0.9rem;
+    justify-content: space-evenly;
+    border: 2px solid #211510b0;
+    box-shadow: 0 0 10px 0 #211510b0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #211510b0;
+}
+
+.boxAccount:hover{
+	  border: 2px solid #f8b700;
+    box-shadow: 0 0 20px 0 #f8b700;
+    cursor: pointer;
+	}
+
+ .ImgAcc{
+  width: 180px;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 black;
+ }   
+
+
+ .text{
+  font-family: 'Lobster', cursive;
+    color: #f8b700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  .text:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #f8b700;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .text:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  .Price{
+    color: #f8b700;
+    font-weight: bolder;
+  }
+  .filtr{
+    
+  }
+  .Input{
+    margin: 20px;
+    width: 270px;
+    border: 1px solid var(--bg-border);
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    padding: 1.15em 1em 1.15em 2em;
+    color: #f0c328;
+    font-family: 'Lobster', cursive;
+    font-size: 12.5px;
+    text-rendering: optimizelegibility;
+    font-feature-settings: "kern" 1, "kern";
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    text-indent: 2em;
+    box-shadow: 0 0 10px 0 #8d5943b0;
+  }
+  .Select{
+    
+  }
+
+  .inBasket {
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    position: relative;
+    background-color: #45555b;
+    color: #fff;
+    width: 80px;
+    border: none;
+    height: 30px;
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+
+  .toBasket {
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    position: relative;
+    background-color: #c27549;
+    border: none;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+
+  
+  .toBasket:hover {
+    background-color: #de8856;
+  }
+  .inBasket:hover {
+    background-color: #58696f;
+  }

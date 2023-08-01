@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Secular+One&display=swap');
+
+
+.containerLogo{
+  margin-bottom: -95px;
+}
+.Logo{
+    background-size: 100%;
+    width: 293px;
+    
+}
+
+.text{
+    font-family: 'Anton', sans-serif;
+    color: #f8b700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  .text:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #f8b700;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .text:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  .imgAcc{
+    width: 20rem;
+    border: 1px solid #f8b700;
+    box-shadow: 0 0 10px 0 #f8b700;
+    object-fit: hidden;
+  }
+  .imgAcc:hover{
+    box-shadow: 0 0 50px 0 #f86c00;
+  }
+
+  .containerImgAcc{
+    
+  }
+
+  .containerImgCateg{
+    /* max-height: 100vh;
+    object-fit: hidden;
+    width: 100%;
+    margin: auto;
+    object-fit: contain; */
+    /* display: flex;
+    align-items: center;
+    width: 30;.containerItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    max-width: 2000px;
+    max-height: 1100px;
+    z-index: 10;
+}
+    height: 70px;
+    top: 70rem;
+    border-radius:  20px;
+    z-index: 2; */
+    /* background-color: #211510;  */
+    /* object-fit: contain; */ 
+  
+  }
+  .containerMain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    object-fit: contain;
+    z-index: 2;
+  }

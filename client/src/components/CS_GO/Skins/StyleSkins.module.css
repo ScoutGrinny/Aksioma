@@ -1,0 +1,16 @@
+.boxItems{
+    width: 18rem;
+    height: 18rem;
+    margin: 1rem;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.containerImgItems{
+    width: 18rem;
+    height: 9rem;
+    border: 1px solid black;
+}
+.containerBtn{
+    display: flex;
+}

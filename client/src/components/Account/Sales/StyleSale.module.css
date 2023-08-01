@@ -1,0 +1,44 @@
+.containerInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0 0 20px 0 #0099f8;
+    background: #292b33;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    border: 1px solid white;
+}
+
+.containerInfo:hover {
+    box-shadow: 0 0 60px 0 #0057f8;
+    cursor: pointer;
+}
+.ImgLot{
+    margin-top: 10px;
+    height: 200px;
+    width: 290px;
+}
+
+.containerItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+ 
+ .description {
+    overflow: hidden;
+    }
+
+.containerName{
+    display: flex;
+     align-items: center;
+    flex-direction: column;
+    }
+.element {
+    margin-bottom: 10px;
+    }

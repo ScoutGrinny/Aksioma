@@ -1,0 +1,35 @@
+
+.containerVideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.intro{
+    max-height: 100vh;
+    object-fit: hidden;
+    /* margin-right: -20px; */
+}
+
+
+.VideoWow{
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
+    box-shadow: 0 0 150px 0 rgb(52, 37, 1);  
+}
+
+/* .navBar{
+    display: flex;
+    justify-content: center;
+    /* position: absolute;
+}  */
+
+/* .navBar{
+    display: flex;
+    justify-content: center;
+    max-height: 100vh;
+    object-fit: hidden;
+} */

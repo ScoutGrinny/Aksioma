@@ -1,0 +1,24 @@
+.wrapperUserPlea {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.inWork {
+  color: red
+}
+
+.done {
+  color: teal;
+}
+
+.containerUserPlea {
+  border: 2px solid white;
+  padding: 10px;
+}
+.textQuest {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 22px;
+
+}

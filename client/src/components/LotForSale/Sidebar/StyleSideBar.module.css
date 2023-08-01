@@ -1,0 +1,11 @@
+.containerSideBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+.imgAcc{
+    width: 6rem;
+    margin: 10px;
+    border-radius: 5px;
+}

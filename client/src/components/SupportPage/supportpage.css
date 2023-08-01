@@ -1,0 +1,213 @@
+.wrapperUserPleas {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+.plea {
+  background: rgb(78,97,139);
+  background: linear-gradient(288deg, rgba(78,97,139,1) 0%, rgba(66,69,167,1) 98%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid rgb(127, 175, 227);
+  margin-bottom: 7px;
+  width: 60vw;
+  align-items: center;
+}
+
+.textMsgPlea {
+  font-size: 18px;
+  color: wheat;
+  margin: auto;
+  width: 20vw;
+  /* word-break: break-all; */
+}
+
+.formMsg {
+  color: white;
+}
+
+.btnSupportAnswer {
+  margin-bottom: 15px;
+  width: 50vw;
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: white;
+  width: 150px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  text-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+  box-sizing: border-box;
+  color: #ffffff;
+  white-space: normal;
+  background-image: linear-gradient(180deg, #1888EF 0%, #009FE9 100%);
+}
+
+.btnSupportAnswer:hover {
+  border: 2px solid orange;
+}
+
+.dateSupportPlea {
+  position: absolute;
+  right: 0.5rem;
+  color: revert;
+}
+
+.elPlusDate {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: rgb(35, 34, 34);
+  width: 100%;
+  position: relative;
+  height: 4rem;
+}
+
+.h2SupportMain {
+  margin-top: 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+}
+
+
+.formClassNone {
+  display: none;
+}
+
+.formAnswerPleas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formElement {
+margin-top: 10px;
+}
+.formBtn {
+    margin-top: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    text-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    color: #ffffff;
+    white-space: normal;
+    width: 150px;
+    padding: 7px;
+    background: none;
+}
+.formBtn:hover{
+    box-shadow: 0 0 20px 0 #0099f8;
+}
+
+.inputPleaAnswer{
+  display: inline-block;
+  vertical-align: middle;
+  width: 350px;
+  height: 50px;
+  padding: 0 12px;
+  margin-top: 8px;
+  margin-bottom: 3px;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  background-color: #ffffff;
+  color: #000000;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.goTobtn1 {
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  text-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+  box-sizing: border-box;
+  margin: 0;
+  height: 40px;
+  white-space: normal;
+  width: auto;
+  color: white;
+  background: rgba(134, 134, 134, 0.5);
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.goTobtn1:hover {
+  background: rgba(134, 134, 134, 0.7);
+}
+
+.pBtn {
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 1220px) {
+  .elPlusDate {
+    justify-content:flex-start;
+    border-radius: 10px;
+    
+  }
+  .textMsgPlea {
+    margin: 0;
+    margin-left: 0.5rem;
+    width: 40vw;
+    font-size: 17px;
+    margin-top: -1vh;
+  }
+} 
+
+@media screen and (max-width: 950px) {
+  .textMsgPlea {
+  }
+} 
+
+@media screen and (max-width: 740px) {
+  .h2SupportMain {
+    font-size: 20px;
+  }
+
+  .textMsgPlea {
+    margin: auto;
+    margin-left: 1px;
+    width: 40vw;
+    font-size: 17px;
+  }
+  .plea {
+    width: 55vw;
+    height: 15vw;
+    flex-direction: row;
+  }
+  .btnSupportAnswer {
+    width: 3.5rem;
+    font-size: 10px;
+    margin: auto;
+    border-radius: 10px;
+    margin-right: 0.5rem;
+  }
+  .dateSupportPlea {
+    display: none;
+  }
+} 
+@media screen and (max-width: 530px) {
+  .textMsgPlea {
+    width: 40vw;
+    font-size: 14px;
+  }
+  .btnSupportAnswer {
+    width: 3rem;
+    font-size: 9px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  .goTobtn1 {
+    font-size: 14px;
+    height: 40px;
+  }
+  .pBtn {
+    text-align: center;
+  }
+} 

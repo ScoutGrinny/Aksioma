@@ -1,0 +1,65 @@
+.containerAccNav{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imgAcc{
+    width: 20rem;
+    border: 1px solid #f8b700;
+    box-shadow: 0 0 10px 0 #f8b700;
+    object-fit: hidden;
+    margin-left: 20px;
+  }
+
+  .imgAcc:hover{
+    box-shadow: 0 0 30px 0 #d7f800;
+  }
+  .imgLot{
+    width: 300px;
+    height: 180px;
+    border: 1px solid #0080f8;
+    box-shadow: 0 0 20px 0 #0099f8;
+    object-fit: hidden;
+    margin-right: 20px;
+  }
+  .imgLot:hover{
+    box-shadow: 0 0 60px 0 #0057f8;
+  }
+
+  .ImgSales{
+    width: 20rem;
+    border: 1px solid #1d2154;
+    box-shadow: 0 0 20px 0 #0011f8;
+    object-fit: hidden;
+    margin-right: 20px;
+  }
+
+  .text{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: #f5cd5f;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  .text:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #5f00f8;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .text:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }

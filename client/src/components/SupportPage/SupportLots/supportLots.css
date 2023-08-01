@@ -1,0 +1,85 @@
+.h2 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.mainDivWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.supportLotWrapper {
+  display: flex;
+  margin-left: 1vw;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  width: 400px;
+  height: 410px;
+  border: 1px solid black;
+  background: #292b33;
+}
+
+.userLotsAdmin {
+  display: flex;
+}
+
+
+.imgLot {
+  width: 400px;
+  height: 270px;
+}
+
+.btnsAdminLots {
+  margin: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  text-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+  box-sizing: border-box;
+  color: #ffffff;
+  white-space: normal;
+  width: 150px;
+  background-image: linear-gradient(180deg, #1888EF 0%, #009FE9 100%);
+}
+
+.btnsAdminLots:hover {
+  box-shadow: 0 0 20px 0 #0099f8;
+}
+
+.goTobtn {
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  text-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+  box-sizing: border-box;
+  margin: 0;
+  height: 40px;
+  white-space: normal;
+  width: auto;
+  color: white;
+  background: rgba(134, 134, 134, 0.5);
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.goTobtn:hover {
+  background: rgba(134, 134, 134, 0.7);
+}
+
+.pBtn1 {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 820px) {
+  .pBtn1 {
+    text-align: center;
+  }
+  .h2 {
+    margin-bottom: 5px;
+  }
+} 

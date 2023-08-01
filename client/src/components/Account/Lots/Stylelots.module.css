@@ -1,0 +1,235 @@
+.invisible {
+    visibility: hidden;
+}
+.invisible2 {
+    visibility: hidden;
+}
+.visible{
+    margin: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 100px;
+    text-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    color: #ffffff;
+    white-space: normal;
+    width: 150px;
+    background-image: linear-gradient(180deg, #1888EF 0%, #009FE9 100%);
+    
+}
+
+.containerInput{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: #171920;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #0099f8;
+    padding: 15px
+}
+
+.ImgLot{
+    width: 400px;
+    height: 270px;
+}
+.containerImg{
+    display: flex;
+}
+.containerLot{
+    display: flex;
+}
+.containerItem{
+display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 85px;
+  width: 400px;
+  height: 410px;
+  border: 1px solid black;
+  margin-left: 150px;
+ background: #292b33;
+}
+
+.input{
+    display: inline-block;
+    vertical-align: middle;
+    width: 280px;
+    height: 40px;
+    padding: 0 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    background-color: #171920;
+    color: #ffffff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.text{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.buttonSubmit{
+    margin-top: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 100px;
+    text-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    color: #ffffff;
+    white-space: normal;
+    width: 150px;
+    background-image: linear-gradient(180deg, #1888EF 0%, #009FE9 100%);
+}
+
+.buttonSubmit:hover {
+    box-shadow: 0 0 20px 0 #0099f8;
+
+}
+
+.buttonClose {
+    position: absolute;
+    top:0%;
+    right: 0%;
+    margin: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 100px;
+    text-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    color: #ffffff;
+    white-space: normal;
+    width: 25px;
+    background-image: linear-gradient(180deg, #1888EF 0%, #009FE9 100%);
+}
+
+.button{
+    margin: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 100px;
+    text-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    color: #ffffff;
+    white-space: normal;
+    width: 150px;
+    background-image: linear-gradient(180deg, #1888EF 0%, #009FE9 100%);
+}
+.button:hover{
+    box-shadow: 0 0 20px 0 #0099f8;
+}
+
+.changeName{
+margin-bottom: 10px;
+}
+.containerMulter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+.description{
+    overflow: hidden;
+    
+}
+.inputMulter{
+    display: inline-block;
+    /* vertical-align: middle; */
+    text-align: center;
+    height: 60px;
+    padding: 0 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    line-height: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    background-color: #171920;
+    color: #ffffff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.inputMulter::-webkit-file-upload-button{
+    margin-top: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 100px;
+    text-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    color: #ffffff;
+    white-space: normal;
+    width: auto;
+    height: 30px;
+    font-size: 10px;
+    background-image: linear-gradient(180deg, #1888EF 0%, #009FE9 100%);
+}
+
+.clBtn {
+    position: absolute;
+    right: -7%;
+    top: -3%;
+    display: flex;
+    justify-content: center;
+}
+.clBtn div {
+    cursor: pointer;
+    position: relative;  
+    height: 68px;
+    width: 50px;
+}
+.clBtn .leftright {
+    height: 4px;
+    width: 20px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: #337AB7;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    transition: all .3s ease-in;
+}
+.clBtn .rightleft {
+    height: 4px;
+    width: 20px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: #337AB7;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+    transition: all .3s ease-in;
+}
+.clBtn .closeBtn {
+    margin: 38px 0 0 -25px;
+    position: absolute;
+    color: #337AB7;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* transition: all .3s ease-in; */
+    opacity: 0; 
+}
+.clBtn div:hover .leftright {
+    transform: rotate(-45deg);
+    background-color: rgb(255, 255, 255);
+}
+.clBtn div:hover .rightleft {
+    transform: rotate(45deg);
+    background-color: rgb(255, 255, 255);
+}
+.clBtn div:hover .closeBtn {
+    opacity: 1;
+}
+
+.onCheck {
+    color: red
+}
+
+.сheck {
+    color: green
+}

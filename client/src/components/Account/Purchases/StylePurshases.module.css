@@ -1,0 +1,49 @@
+.containerInfo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    width: 400px;
+    height: 410px;
+    border: 1px solid black;
+    margin-left: 150px;
+    background: #292b33;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    border: 1px solid white;
+    box-shadow: 0 0 20px 0 #0099f8;
+
+}
+
+.containerInfo:hover {
+    box-shadow: 0 0 60px 0 #0057f8;
+    cursor: pointer;
+}
+
+.containerItems{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.description{
+    overflow: hidden;
+}
+
+.ImgLot{
+    width: 350px;
+    height: 200px;
+   
+}
+.containerName{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+.element {
+    margin-bottom: 10px;
+}

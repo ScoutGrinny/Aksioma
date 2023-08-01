@@ -1,0 +1,37 @@
+.containerNavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-family: 'Anton', sans-serif;
+    color: #f8b700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  .text:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #f8b700;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .text:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  .text2{
+    display: flex;
+    justify-content: center;
+  }
